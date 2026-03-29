@@ -1,0 +1,231 @@
+eval_set,image_name,image_path,ground_truth,prediction,circle,notch_toward_hole,notch_not_toward_hole,reasons
+real_labeled,Image_20260218133101422.bmp,data/OK/Image_20260218133101422.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133101549.bmp,data/OK/Image_20260218133101549.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133101671.bmp,data/OK/Image_20260218133101671.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133101786.bmp,data/OK/Image_20260218133101786.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133101893.bmp,data/OK/Image_20260218133101893.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102010.bmp,data/OK/Image_20260218133102010.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102120.bmp,data/OK/Image_20260218133102120.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102226.bmp,data/OK/Image_20260218133102226.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102403.bmp,data/OK/Image_20260218133102403.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102561.bmp,data/OK/Image_20260218133102561.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102726.bmp,data/OK/Image_20260218133102726.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133102895.bmp,data/OK/Image_20260218133102895.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133103064.bmp,data/OK/Image_20260218133103064.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133103234.bmp,data/OK/Image_20260218133103234.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133103403.bmp,data/OK/Image_20260218133103403.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133103560.bmp,data/OK/Image_20260218133103560.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133103745.bmp,data/OK/Image_20260218133103745.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133103912.bmp,data/OK/Image_20260218133103912.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133104079.bmp,data/OK/Image_20260218133104079.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133104248.bmp,data/OK/Image_20260218133104248.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133104408.bmp,data/OK/Image_20260218133104408.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133104587.bmp,data/OK/Image_20260218133104587.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133104744.bmp,data/OK/Image_20260218133104744.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133104912.bmp,data/OK/Image_20260218133104912.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133105075.bmp,data/OK/Image_20260218133105075.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133105242.bmp,data/OK/Image_20260218133105242.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133105413.bmp,data/OK/Image_20260218133105413.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133105584.bmp,data/OK/Image_20260218133105584.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133105779.bmp,data/OK/Image_20260218133105779.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133105925.bmp,data/OK/Image_20260218133105925.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133106078.bmp,data/OK/Image_20260218133106078.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133106261.bmp,data/OK/Image_20260218133106261.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133106428.bmp,data/OK/Image_20260218133106428.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133106609.bmp,data/OK/Image_20260218133106609.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133106809.bmp,data/OK/Image_20260218133106809.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107016.bmp,data/OK/Image_20260218133107016.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107119.bmp,data/OK/Image_20260218133107119.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107262.bmp,data/OK/Image_20260218133107262.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107444.bmp,data/OK/Image_20260218133107444.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107617.bmp,data/OK/Image_20260218133107617.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107761.bmp,data/OK/Image_20260218133107761.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133107927.bmp,data/OK/Image_20260218133107927.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133108092.bmp,data/OK/Image_20260218133108092.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133108266.bmp,data/OK/Image_20260218133108266.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133108452.bmp,data/OK/Image_20260218133108452.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133108639.bmp,data/OK/Image_20260218133108639.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133108780.bmp,data/OK/Image_20260218133108780.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133108944.bmp,data/OK/Image_20260218133108944.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133109113.bmp,data/OK/Image_20260218133109113.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133109281.bmp,data/OK/Image_20260218133109281.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133109441.bmp,data/OK/Image_20260218133109441.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218133109614.bmp,data/OK/Image_20260218133109614.bmp,OK,OK,3,4,0,
+real_labeled,Image_20260218131544908.bmp,data/NOT_OKAY/Image_20260218131544908.bmp,NOT_OKAY,NOT_OKAY,4,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+real_labeled,Image_20260218131547844.bmp,data/NOT_OKAY/Image_20260218131547844.bmp,NOT_OKAY,NOT_OKAY,4,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+real_labeled,Image_20260218131926371.bmp,data/NOT_OKAY/Image_20260218131926371.bmp,NOT_OKAY,NOT_OKAY,3,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+real_labeled,Image_20260218131931839.bmp,data/NOT_OKAY/Image_20260218131931839.bmp,NOT_OKAY,NOT_OKAY,3,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+real_labeled,Image_20260218131932092.bmp,data/NOT_OKAY/Image_20260218131932092.bmp,NOT_OKAY,NOT_OKAY,3,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260218133101422.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101422.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133101549.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101549.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133101671.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101671.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133101786.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101786.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133101893.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101893.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102010.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102010.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102120.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102120.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102226.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102226.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102403.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102403.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102561.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102561.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102726.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102726.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133102895.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102895.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133103064.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103064.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133103234.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103234.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133103403.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103403.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133103560.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103560.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133103745.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103745.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133103912.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103912.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133104079.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104079.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133104248.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104248.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133104408.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104408.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133104587.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104587.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133104744.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104744.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133104912.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104912.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133105075.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105075.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133105242.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105242.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133105413.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105413.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133105584.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105584.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133105779.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105779.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133105925.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105925.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133106078.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106078.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133106261.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106261.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133106428.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106428.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133106609.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106609.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133106809.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106809.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107016.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107016.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107119.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107119.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107262.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107262.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107444.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107444.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107617.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107617.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107761.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107761.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133107927.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107927.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133108092.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108092.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133108266.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108266.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133108452.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108452.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133108639.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108639.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133108780.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108780.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133108944.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108944.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133109113.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109113.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133109281.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109281.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133109441.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109441.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260218133109614.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109614.bmp,OK,OK,3,4,0,
+ok::OK JOB,Image_20260319164601170.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601170.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601230.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601230.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601281.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601281.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601331.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601331.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601400.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601400.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601463.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601463.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601516.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601516.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601562.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601562.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601628.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601628.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601684.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601684.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601733.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601733.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601790.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601790.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601842.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601842.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601894.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601894.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164601945.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601945.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602009.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602009.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602071.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602071.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602121.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602121.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602203.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602203.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602275.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602275.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602333.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602333.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602514.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602514.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602679.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602679.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602821.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602821.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164602972.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602972.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164603123.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603123.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164603269.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603269.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164603429.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603429.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164603555.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603555.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319164603619.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603619.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351181.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351181.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351279.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351279.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351338.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351338.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351403.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351403.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351451.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351451.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351519.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351519.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351567.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351567.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351617.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351617.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351664.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351664.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351721.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351721.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351781.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351781.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351839.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351839.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351896.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351896.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165351959.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351959.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352019.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352019.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352074.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352074.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352153.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352153.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352228.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352228.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352279.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352279.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352347.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352347.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352398.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352398.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352451.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352451.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352513.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352513.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352672.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352672.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319165352828.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352828.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055013.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055013.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055091.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055091.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055141.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055141.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055195.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055195.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055299.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055299.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055354.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055354.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055406.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055406.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055472.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055472.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055525.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055525.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055575.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055575.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055632.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055632.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055686.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055686.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055736.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055736.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055795.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055795.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055860.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055860.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055911.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055911.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170055962.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055962.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170056015.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056015.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170056082.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056082.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170056253.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056253.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170056448.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056448.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170723738.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723738.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170723807.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723807.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170723861.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723861.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170723912.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723912.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170723970.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723970.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724018.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724018.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724070.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724070.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724126.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724126.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170724185.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724185.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170724234.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724234.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724284.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724284.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170724336.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724336.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170724392.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724392.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724447.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724447.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170724498.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724498.bmp,OK,NOT_OKAY,2,1,3,notch_not_toward_hole detected
+ok::OK JOB,Image_20260319170724564.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724564.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724627.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724627.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724691.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724691.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170724843.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724843.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319170725075.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319170725075.bmp,OK,NOT_OKAY,2,0,3,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171441875.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171441875.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171441937.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171441937.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171441996.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171441996.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442053.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442053.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442103.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442103.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442157.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442157.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442216.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442216.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442270.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442270.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442325.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442325.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442517.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442517.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442592.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442592.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442650.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442650.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442701.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442701.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442757.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442757.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442823.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442823.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442880.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442880.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171442938.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442938.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443024.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443024.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443090.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443090.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443154.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443154.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443233.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443233.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443291.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443291.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443353.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443353.bmp,OK,NOT_OKAY,2,0,1,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443439.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443439.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing
+ok::OK JOB,Image_20260319171443524.bmp,JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443524.bmp,OK,NOT_OKAY,2,0,2,notch_not_toward_hole detected | notch_toward_hole missing

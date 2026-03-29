@@ -1,0 +1,40 @@
+# Model weights - too large
+models/*.pt
+*.onnx
+yolov8n.pt
+
+# Client images and raw data - confidential/large
+dataset/images/
+dataset/labels/
+data/
+
+# Training runs - too large
+runs/
+
+# Sample prediction images - client data
+results/samples/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# Temp files
+*.tmp
+*.log
+
+# Results - ignore individual prediction images
+results/not_ok_eval/
+results/ok_eval/
+results/single/
+
+# Keep these (do NOT add them to ignore)
+# results/metrics.png
+# results/confusion_matrix.png

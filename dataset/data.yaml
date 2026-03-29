@@ -1,0 +1,9 @@
+path: d:/src/src/dataset
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: circle
+  1: notch_toward_hole
+  2: notch_not_toward_hole

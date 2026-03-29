@@ -1,0 +1,3425 @@
+{
+  "weights": "/media/sirius/My Passport/JD_block_notch_dection/runs/detect/runs/notch_face_v2/weights/best.pt",
+  "config": {
+    "imgsz": 960,
+    "conf": 0.25,
+    "device": "0",
+    "batch": 16,
+    "limit": 0
+  },
+  "summaries": {
+    "real_labeled": {
+      "images": 57,
+      "accuracy": 1.0,
+      "ok_precision": 1.0,
+      "ok_recall": 1.0,
+      "ok_specificity": 1.0,
+      "confusion": {
+        "OK->OK": 52,
+        "OK->NOT_OKAY": 0,
+        "NOT_OKAY->OK": 0,
+        "NOT_OKAY->NOT_OKAY": 5
+      },
+      "failure_reasons": {
+        "notch_not_toward_hole detected": 5,
+        "notch_toward_hole missing": 5
+      }
+    },
+    "ok::OK JOB": {
+      "images": 173,
+      "accuracy": 0.30057803468208094,
+      "ok_precision": 1.0,
+      "ok_recall": 0.30057803468208094,
+      "ok_specificity": 0.0,
+      "confusion": {
+        "OK->OK": 52,
+        "OK->NOT_OKAY": 121,
+        "NOT_OKAY->OK": 0,
+        "NOT_OKAY->NOT_OKAY": 0
+      },
+      "failure_reasons": {
+        "notch_not_toward_hole detected": 121,
+        "notch_toward_hole missing": 113
+      }
+    },
+    "overall": {
+      "images": 230,
+      "accuracy": 0.47391304347826085,
+      "ok_precision": 1.0,
+      "ok_recall": 0.4622222222222222,
+      "ok_specificity": 1.0,
+      "confusion": {
+        "OK->OK": 104,
+        "OK->NOT_OKAY": 121,
+        "NOT_OKAY->OK": 0,
+        "NOT_OKAY->NOT_OKAY": 5
+      },
+      "failure_reasons": {
+        "notch_not_toward_hole detected": 126,
+        "notch_toward_hole missing": 118
+      }
+    }
+  },
+  "rows": [
+    {
+      "image_name": "Image_20260218133101422.bmp",
+      "image_path": "data/OK/Image_20260218133101422.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101549.bmp",
+      "image_path": "data/OK/Image_20260218133101549.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101671.bmp",
+      "image_path": "data/OK/Image_20260218133101671.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101786.bmp",
+      "image_path": "data/OK/Image_20260218133101786.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101893.bmp",
+      "image_path": "data/OK/Image_20260218133101893.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102010.bmp",
+      "image_path": "data/OK/Image_20260218133102010.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102120.bmp",
+      "image_path": "data/OK/Image_20260218133102120.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102226.bmp",
+      "image_path": "data/OK/Image_20260218133102226.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102403.bmp",
+      "image_path": "data/OK/Image_20260218133102403.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102561.bmp",
+      "image_path": "data/OK/Image_20260218133102561.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102726.bmp",
+      "image_path": "data/OK/Image_20260218133102726.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102895.bmp",
+      "image_path": "data/OK/Image_20260218133102895.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103064.bmp",
+      "image_path": "data/OK/Image_20260218133103064.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103234.bmp",
+      "image_path": "data/OK/Image_20260218133103234.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103403.bmp",
+      "image_path": "data/OK/Image_20260218133103403.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103560.bmp",
+      "image_path": "data/OK/Image_20260218133103560.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103745.bmp",
+      "image_path": "data/OK/Image_20260218133103745.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103912.bmp",
+      "image_path": "data/OK/Image_20260218133103912.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104079.bmp",
+      "image_path": "data/OK/Image_20260218133104079.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104248.bmp",
+      "image_path": "data/OK/Image_20260218133104248.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104408.bmp",
+      "image_path": "data/OK/Image_20260218133104408.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104587.bmp",
+      "image_path": "data/OK/Image_20260218133104587.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104744.bmp",
+      "image_path": "data/OK/Image_20260218133104744.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104912.bmp",
+      "image_path": "data/OK/Image_20260218133104912.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105075.bmp",
+      "image_path": "data/OK/Image_20260218133105075.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105242.bmp",
+      "image_path": "data/OK/Image_20260218133105242.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105413.bmp",
+      "image_path": "data/OK/Image_20260218133105413.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105584.bmp",
+      "image_path": "data/OK/Image_20260218133105584.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105779.bmp",
+      "image_path": "data/OK/Image_20260218133105779.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105925.bmp",
+      "image_path": "data/OK/Image_20260218133105925.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106078.bmp",
+      "image_path": "data/OK/Image_20260218133106078.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106261.bmp",
+      "image_path": "data/OK/Image_20260218133106261.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106428.bmp",
+      "image_path": "data/OK/Image_20260218133106428.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106609.bmp",
+      "image_path": "data/OK/Image_20260218133106609.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106809.bmp",
+      "image_path": "data/OK/Image_20260218133106809.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107016.bmp",
+      "image_path": "data/OK/Image_20260218133107016.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107119.bmp",
+      "image_path": "data/OK/Image_20260218133107119.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107262.bmp",
+      "image_path": "data/OK/Image_20260218133107262.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107444.bmp",
+      "image_path": "data/OK/Image_20260218133107444.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107617.bmp",
+      "image_path": "data/OK/Image_20260218133107617.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107761.bmp",
+      "image_path": "data/OK/Image_20260218133107761.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107927.bmp",
+      "image_path": "data/OK/Image_20260218133107927.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108092.bmp",
+      "image_path": "data/OK/Image_20260218133108092.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108266.bmp",
+      "image_path": "data/OK/Image_20260218133108266.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108452.bmp",
+      "image_path": "data/OK/Image_20260218133108452.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108639.bmp",
+      "image_path": "data/OK/Image_20260218133108639.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108780.bmp",
+      "image_path": "data/OK/Image_20260218133108780.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108944.bmp",
+      "image_path": "data/OK/Image_20260218133108944.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109113.bmp",
+      "image_path": "data/OK/Image_20260218133109113.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109281.bmp",
+      "image_path": "data/OK/Image_20260218133109281.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109441.bmp",
+      "image_path": "data/OK/Image_20260218133109441.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109614.bmp",
+      "image_path": "data/OK/Image_20260218133109614.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218131544908.bmp",
+      "image_path": "data/NOT_OKAY/Image_20260218131544908.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "NOT_OKAY",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 4,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260218131547844.bmp",
+      "image_path": "data/NOT_OKAY/Image_20260218131547844.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "NOT_OKAY",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 4,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260218131926371.bmp",
+      "image_path": "data/NOT_OKAY/Image_20260218131926371.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "NOT_OKAY",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260218131931839.bmp",
+      "image_path": "data/NOT_OKAY/Image_20260218131931839.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "NOT_OKAY",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260218131932092.bmp",
+      "image_path": "data/NOT_OKAY/Image_20260218131932092.bmp",
+      "eval_set": "real_labeled",
+      "ground_truth": "NOT_OKAY",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260218133101422.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101422.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101549.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101549.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101671.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101671.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101786.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101786.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133101893.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133101893.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102010.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102010.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102120.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102120.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102226.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102226.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102403.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102403.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102561.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102561.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102726.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102726.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133102895.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133102895.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103064.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103064.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103234.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103234.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103403.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103403.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103560.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103560.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103745.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103745.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133103912.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133103912.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104079.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104079.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104248.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104248.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104408.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104408.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104587.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104587.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104744.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104744.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133104912.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133104912.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105075.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105075.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105242.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105242.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105413.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105413.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105584.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105584.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105779.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105779.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133105925.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133105925.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106078.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106078.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106261.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106261.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106428.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106428.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106609.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106609.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133106809.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133106809.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107016.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107016.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107119.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107119.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107262.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107262.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107444.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107444.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107617.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107617.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107761.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107761.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133107927.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133107927.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108092.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108092.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108266.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108266.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108452.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108452.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108639.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108639.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108780.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108780.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133108944.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133108944.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109113.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109113.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109281.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109281.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109441.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109441.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260218133109614.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260218133109614.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "OK",
+      "reasons": [],
+      "counts": {
+        "circle": 3,
+        "notch_toward_hole": 4,
+        "notch_not_toward_hole": 0
+      }
+    },
+    {
+      "image_name": "Image_20260319164601170.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601170.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601230.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601230.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601281.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601281.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601331.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601331.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601400.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601400.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601463.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601463.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601516.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601516.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601562.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601562.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601628.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601628.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601684.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601684.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601733.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601733.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601790.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601790.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601842.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601842.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601894.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601894.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164601945.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164601945.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602009.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602009.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602071.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602071.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602121.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602121.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602203.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602203.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602275.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602275.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602333.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602333.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602514.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602514.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602679.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602679.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602821.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602821.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164602972.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164602972.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164603123.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603123.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164603269.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603269.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164603429.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603429.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164603555.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603555.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319164603619.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319164603619.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319165351181.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351181.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319165351279.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351279.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351338.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351338.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319165351403.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351403.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351451.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351451.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351519.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351519.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351567.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351567.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351617.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351617.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351664.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351664.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351721.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351721.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351781.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351781.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351839.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351839.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351896.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351896.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165351959.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165351959.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352019.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352019.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352074.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352074.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352153.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352153.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352228.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352228.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352279.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352279.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352347.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352347.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319165352398.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352398.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352451.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352451.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352513.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352513.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352672.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352672.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319165352828.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319165352828.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319170055013.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055013.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055091.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055091.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055141.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055141.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055195.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055195.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055299.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055299.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055354.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055354.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055406.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055406.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055472.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055472.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055525.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055525.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055575.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055575.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055632.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055632.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055686.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055686.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055736.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055736.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055795.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055795.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055860.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055860.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055911.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055911.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170055962.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170055962.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170056015.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056015.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170056082.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056082.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170056253.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056253.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170056448.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170056448.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170723738.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723738.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170723807.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723807.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170723861.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723861.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170723912.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723912.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170723970.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170723970.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724018.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724018.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724070.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724070.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724126.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724126.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724185.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724185.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724234.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724234.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724284.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724284.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724336.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724336.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724392.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724392.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724447.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724447.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724498.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724498.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 1,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724564.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724564.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724627.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724627.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724691.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724691.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170724843.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170724843.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319170725075.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319170725075.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 3
+      }
+    },
+    {
+      "image_name": "Image_20260319171441875.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171441875.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171441937.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171441937.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171441996.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171441996.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442053.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442053.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442103.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442103.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442157.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442157.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442216.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442216.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442270.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442270.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442325.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442325.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442517.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442517.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442592.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442592.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442650.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442650.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442701.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442701.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442757.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442757.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171442823.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442823.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442880.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442880.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171442938.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171442938.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171443024.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443024.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171443090.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443090.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171443154.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443154.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171443233.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443233.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171443291.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443291.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171443353.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443353.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 1
+      }
+    },
+    {
+      "image_name": "Image_20260319171443439.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443439.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    },
+    {
+      "image_name": "Image_20260319171443524.bmp",
+      "image_path": "JD BLOCK OK JOB 190326/OK JOB/Image_20260319171443524.bmp",
+      "eval_set": "ok::OK JOB",
+      "ground_truth": "OK",
+      "prediction": "NOT_OKAY",
+      "reasons": [
+        "notch_not_toward_hole detected",
+        "notch_toward_hole missing"
+      ],
+      "counts": {
+        "circle": 2,
+        "notch_toward_hole": 0,
+        "notch_not_toward_hole": 2
+      }
+    }
+  ]
+}
